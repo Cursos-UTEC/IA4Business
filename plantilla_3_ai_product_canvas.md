@@ -53,24 +53,67 @@ Escribe aquí:
 
 ---
 
-## SECCIÓN 2 — Motor de IA
+## SECCIÓN 2 — Tech & Cost Overview *(visión de temperatura)*
 
-### 2.1 Herramienta o API principal
+> **Instrucción:**
+> Esta sección NO es la selección definitiva del stack tecnológico — esa decisión se toma en la **Fase M1** con criterios técnicos y financieros más detallados.
+> El objetivo aquí es tener una primera lectura de qué categorías de herramientas podrían aplicar y cuánto podría costar el MVP a nivel general.
+> Sé honesto sobre lo que no sabes aún — una estimación consciente vale más que un número inventado.
 
-| Campo | Detalle |
-|---|---|
-| Herramienta / API | |
-| Versión o modelo específico | *(ej: Claude 3.5 Sonnet, GPT-4o, Teachable Machine)* |
-| Forma de acceso | *(API / interfaz web / SDK / no-code)* |
-| Costo estimado para el MVP | *(gratuito / freemium / pago — especificar)* |
+---
 
-### 2.2 Herramientas de soporte
+### 2.1 Categorías de IA que podrían aplicar al problema
 
-| Herramienta | Rol en el producto | ¿Por qué esta y no otra? |
+> *Marca todas las que el equipo considera relevantes para el problema definido. No es un compromiso — es una exploración.*
+
+| Categoría | ¿Podría aplicar? | Razonamiento en 1 línea |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| **Modelos de lenguaje (LLM)** — texto, conversación, generación | SÍ / NO / TAL VEZ | |
+| **Visión computacional** — imágenes, video, detección visual | SÍ / NO / TAL VEZ | |
+| **ML supervisado tabular** — predicción con datos históricos | SÍ / NO / TAL VEZ | |
+| **ML no supervisado** — segmentación, clustering | SÍ / NO / TAL VEZ | |
+| **Automatización de flujos con IA** — orquestación de agentes | SÍ / NO / TAL VEZ | |
+| **Clasificación de audio / voz** | SÍ / NO / TAL VEZ | |
+
+---
+
+### 2.2 Estimación de costo rough del MVP
+
+> *Nivel de precisión esperado: orden de magnitud, no presupuesto formal.*
+> *Escala de referencia: 🟢 Gratuito o casi / 🟡 Freemium con límites / 🔴 Pago con costo significativo*
+
+| Componente | Categoría de herramienta | Nivel de costo estimado | Comentario |
+|---|---|---|---|
+| Motor de IA principal | | 🟢 / 🟡 / 🔴 | |
+| Interfaz o frontend | | 🟢 / 🟡 / 🔴 | |
+| Almacenamiento de datos | | 🟢 / 🟡 / 🔴 | |
+| Orquestación / automatización | | 🟢 / 🟡 / 🔴 | |
+| Otros *(APIs, integraciones)* | | 🟢 / 🟡 / 🔴 | |
+
+**Costo total estimado del MVP (rango aproximado):**
+```
+Mínimo: S/. _____ / mes      Máximo: S/. _____ / mes
+Supuestos clave de esta estimación:
+
+
+```
+
+---
+
+### 2.3 Complejidad de implementación percibida
+
+> *Evaluación honesta del equipo sobre qué tan difícil sería construir con estas categorías.*
+
+| Dimensión | Nivel | Comentario |
+|---|---|---|
+| Curva de aprendizaje de las herramientas | Alta / Media / Baja | |
+| Disponibilidad de tutoriales y documentación | Alta / Media / Baja | |
+| Dependencia de conocimiento técnico externo | Alta / Media / Baja | |
+| Viabilidad de construir el MVP en 7 semanas | Alta / Media / Baja | |
+
+---
+
+> **\* Análisis financiero detallado:** Esta sección será complementada con la **Plantilla 5 — Financial & Tech Feasibility**, que desarrollaremos más adelante en el curso. Incluirá costeo por tokens, comparación de APIs, ROI estimado del MVP y análisis de viabilidad financiera del producto a escala.
 
 ---
 
