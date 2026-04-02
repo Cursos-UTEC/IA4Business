@@ -264,7 +264,109 @@ sin instrucciones adicionales y obtiene [resultado específico]."
 
 ---
 
-## SECCIÓN 8 — Autoevaluación del equipo
+## SECCIÓN 8 — OKRs y KPIs del producto
+
+> **Instrucción:**
+> Esta sección define los compromisos de impacto del producto **antes de construir**.
+> La Plantilla 4 usará estos valores como línea base para evaluar resultados reales.
+> Un equipo que no puede definir esto antes de construir no sabe qué está construyendo.
+
+---
+
+### Estructura obligatoria: O + KR + KPI
+
+```
+OBJETIVO (O)          → La mejora de negocio que persigue el producto (1 frase aspiracional)
+    Key Result 1 (KR) → Métrica de negocio con valor actual y meta específica
+    Key Result 2 (KR) → Métrica de negocio con valor actual y meta específica
+    KPI técnico       → Métrica del modelo que indica que la IA funciona correctamente
+```
+
+**Ejemplo de referencia (NO copiar — solo para entender la estructura):**
+```
+O:   Reducir la carga operativa del equipo de atención al cliente
+KR1: Tasa de resolución autónoma por IA > 75% (valor actual: 0% — todo es manual)
+KR2: Tiempo promedio de respuesta < 2 min (valor actual: 45 min)
+KPI: Tasa de alucinación del modelo < 5%
+```
+
+---
+
+### OKR + KPI del proyecto
+
+**Objetivo (O):**
+> *Una frase que describe la mejora de negocio que el producto persigue. Debe ser ambiciosa pero alcanzable en el semestre.*
+
+```
+O:
+
+
+```
+
+---
+
+**Key Result 1 (KR1):**
+
+| Campo | Detalle |
+|---|---|
+| Métrica | ¿Qué se mide exactamente? |
+| Valor actual | ¿Cuánto es hoy, sin el MVP? |
+| Meta con el MVP | ¿Cuánto debería ser con el MVP funcionando? |
+| Método de medición | ¿Cómo y con qué herramienta se medirá? |
+| Período de medición | ¿En qué semana se medirá para la sustentación? |
+
+---
+
+**Key Result 2 (KR2):**
+
+| Campo | Detalle |
+|---|---|
+| Métrica | ¿Qué se mide exactamente? |
+| Valor actual | ¿Cuánto es hoy, sin el MVP? |
+| Meta con el MVP | ¿Cuánto debería ser con el MVP funcionando? |
+| Método de medición | ¿Cómo y con qué herramienta se medirá? |
+| Período de medición | ¿En qué semana se medirá para la sustentación? |
+
+---
+
+**Key Result 3 (KR3) — opcional pero recomendado:**
+
+| Campo | Detalle |
+|---|---|
+| Métrica | |
+| Valor actual | |
+| Meta con el MVP | |
+| Método de medición | |
+| Período de medición | |
+
+---
+
+**KPI técnico del modelo:**
+
+| Campo | Detalle |
+|---|---|
+| Métrica técnica | *(ej: accuracy, tasa de alucinación, tasa de rechazo, F1 score)* |
+| Criterio mínimo aceptable | *(ej: accuracy > 80%, alucinación < 5%)* |
+| Método de medición | *(evaluación manual, log de conversaciones, reporte de herramienta)* |
+
+---
+
+### Verificación de coherencia interna
+
+> *Antes de continuar, confirma que el OKR es coherente con el resto del canvas.*
+
+| Pregunta | Respuesta |
+|---|---|
+| ¿El Objetivo refleja directamente el problema de la Sección 1.2? | SÍ / NO |
+| ¿Los KRs son medibles con números concretos (no "mejorar" o "aumentar")? | SÍ / NO |
+| ¿El KPI técnico está conectado al tipo de IA elegido en la Sección 1.4? | SÍ / NO |
+| ¿El equipo puede obtener el valor actual de los KRs antes de la Semana 6? | SÍ / NO |
+
+> **Si algún KR dice "mejorar", "aumentar" o "reducir" sin número → no es un KR válido.**
+
+---
+
+## SECCIÓN 9 — Autoevaluación del equipo
 
 | Pregunta de control | Respuesta |
 |---|---|
@@ -273,10 +375,12 @@ sin instrucciones adicionales y obtiene [resultado específico]."
 | ¿El stack tecnológico fue verificado (cuentas creadas, accesos confirmados)? | SÍ / NO |
 | ¿El alcance del MVP es realista para construir en 7 semanas? | SÍ / NO |
 | ¿El system prompt fue probado al menos una vez antes de entregar? | SÍ / NO |
+| ¿El Objetivo del OKR refleja el problema definido en Fase P? | SÍ / NO |
+| ¿Los KRs tienen valores actuales concretos (no estimados)? | SÍ / NO |
 | ¿Todos los integrantes entienden cada sección de este canvas? | SÍ / NO |
 
 > **Si alguna respuesta es NO → el canvas no está listo para entregar.**
 
 ---
 
-*Framework PROMPT v1.0 — AD5018 UTEC | Plantilla 3 de 4*
+*Framework PROMPT v1.1 — AD5018 UTEC | Plantilla 3 de 4*

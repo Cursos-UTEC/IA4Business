@@ -27,55 +27,116 @@
 
 ---
 
-## SECCIÓN 1 — Métricas de negocio
+## SECCIÓN 1 — Evaluación de OKRs declarados en el AI Product Canvas
 
-> *Define las métricas que cambiarán si el MVP resuelve el problema. Estas son las métricas que le importan al usuario o al cliente — no al equipo técnico.*
-
-### Métrica de negocio 1
-
-| Campo | Detalle |
-|---|---|
-| **Nombre de la métrica** | |
-| **Descripción** | ¿Qué mide exactamente? |
-| **Valor actual** *(antes del MVP)* | |
-| **Meta con el MVP** | |
-| **Cómo se medirá** | ¿Con qué herramienta o método? |
-| **Resultado real obtenido** | *(completar en Semanas 12-13)* |
-| **¿Se alcanzó la meta?** | SÍ / NO / PARCIAL *(completar en Semanas 12-13)* |
+> **Instrucción:**
+> Esta sección NO define métricas nuevas — evalúa los compromisos que el equipo declaró en la Sección 8 del AI Product Canvas (Plantilla 3).
+> Copia el Objetivo y cada KR exactamente como los escribiste allá, y completa los resultados reales obtenidos.
+> Un equipo que cambia sus KRs después de construir está haciendo trampa — los compromisos son inamovibles desde la Semana 6.
 
 ---
 
-### Métrica de negocio 2
+### Objetivo (O) del proyecto
+> *Copia exactamente el Objetivo declarado en la Plantilla 3, Sección 8.*
 
-| Campo | Detalle |
-|---|---|
-| **Nombre de la métrica** | |
-| **Descripción** | ¿Qué mide exactamente? |
-| **Valor actual** *(antes del MVP)* | |
-| **Meta con el MVP** | |
-| **Cómo se medirá** | |
-| **Resultado real obtenido** | *(completar en Semanas 12-13)* |
-| **¿Se alcanzó la meta?** | SÍ / NO / PARCIAL *(completar en Semanas 12-13)* |
+```
+O:
+
+
+```
 
 ---
 
-### Métrica de negocio 3 *(opcional)*
+### Evaluación de Key Results
 
-| Campo | Detalle |
-|---|---|
-| **Nombre de la métrica** | |
-| **Descripción** | |
-| **Valor actual** | |
-| **Meta con el MVP** | |
-| **Cómo se medirá** | |
-| **Resultado real obtenido** | *(completar en Semanas 12-13)* |
-| **¿Se alcanzó la meta?** | SÍ / NO / PARCIAL |
+**KR1:**
+
+| Campo | Declarado en Plantilla 3 | Resultado real obtenido |
+|---|---|---|
+| Métrica | | |
+| Valor actual (antes del MVP) | | — *(no cambia)* |
+| Meta comprometida | | — *(no cambia)* |
+| Resultado real | — | |
+| Método usado para medir | | |
+| **¿Se alcanzó la meta?** | — | **SÍ / NO / PARCIAL** |
+
+**Análisis del KR1:**
+```
+¿Por qué se alcanzó o no se alcanzó? ¿Qué factor fue determinante?
+
+
+```
 
 ---
 
-## SECCIÓN 2 — Métricas técnicas del modelo
+**KR2:**
 
-> *Selecciona las métricas aplicables según el tipo de IA del proyecto y define el criterio mínimo de aceptación.*
+| Campo | Declarado en Plantilla 3 | Resultado real obtenido |
+|---|---|---|
+| Métrica | | |
+| Valor actual (antes del MVP) | | — *(no cambia)* |
+| Meta comprometida | | — *(no cambia)* |
+| Resultado real | — | |
+| Método usado para medir | | |
+| **¿Se alcanzó la meta?** | — | **SÍ / NO / PARCIAL** |
+
+**Análisis del KR2:**
+```
+¿Por qué se alcanzó o no se alcanzó? ¿Qué factor fue determinante?
+
+
+```
+
+---
+
+**KR3 *(si fue declarado)*:**
+
+| Campo | Declarado en Plantilla 3 | Resultado real obtenido |
+|---|---|---|
+| Métrica | | |
+| Valor actual (antes del MVP) | | — |
+| Meta comprometida | | — |
+| Resultado real | — | |
+| Método usado para medir | | |
+| **¿Se alcanzó la meta?** | — | **SÍ / NO / PARCIAL** |
+
+---
+
+### Evaluación del KPI técnico
+
+| Campo | Declarado en Plantilla 3 | Resultado real obtenido |
+|---|---|---|
+| Métrica técnica | | |
+| Criterio mínimo aceptable | | — *(no cambia)* |
+| Resultado real | — | |
+| Método de medición | | |
+| **¿Es aceptable?** | — | **SÍ / NO** |
+
+---
+
+### Resumen ejecutivo del OKR
+
+| | KR1 | KR2 | KR3 | KPI técnico |
+|---|---|---|---|---|
+| **¿Alcanzado?** | SÍ/NO/PARCIAL | SÍ/NO/PARCIAL | SÍ/NO/PARCIAL | SÍ/NO |
+
+**Conclusión del equipo:**
+> *¿El MVP cumplió su objetivo de negocio? Argumenta con los datos anteriores.*
+
+```
+Escribe aquí (4-5 líneas):
+
+
+```
+
+---
+
+## SECCIÓN 2 — Evaluación técnica del modelo
+
+> **Instrucción:**
+> El criterio mínimo aceptable fue declarado en la Plantilla 3, Sección 8 (KPI técnico).
+> Aquí solo se reportan los resultados reales y se interpretan en contexto de negocio.
+> Completa solo las métricas aplicables al tipo de IA del proyecto.
 
 ### Para IA Generativa
 
@@ -337,14 +398,17 @@ Escribe aquí:
 
 | Pregunta de control | Respuesta |
 |---|---|
+| ¿Los KRs evaluados son exactamente los declarados en la Plantilla 3? | SÍ / NO |
+| ¿Los resultados reales tienen evidencia concreta que los respalda? | SÍ / NO |
+| ¿El equipo no cambió ningún KR después de la Semana 6? | SÍ / NO |
 | ¿Hay al menos 1 riesgo técnico, 1 ético y 1 legal identificados? | SÍ / NO |
 | ¿Cada riesgo tiene una mitigación concreta y no genérica? | SÍ / NO |
 | ¿El equipo conoce la regulación aplicable a su sector? | SÍ / NO |
-| ¿El MVP tiene algún mecanismo visible que informe al usuario que interactúa con IA? | SÍ / NO |
+| ¿El MVP informa visiblemente al usuario que interactúa con IA? | SÍ / NO |
 | ¿Todos los integrantes pueden responder las preguntas éticas de la Sección 7? | SÍ / NO |
 
 > **Si alguna respuesta es NO → la plantilla no está lista para la sustentación.**
 
 ---
 
-*Framework PROMPT v1.0 — AD5018 UTEC | Plantilla 4 de 4*
+*Framework PROMPT v1.1 — AD5018 UTEC | Plantilla 4 de 4*
